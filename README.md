@@ -59,20 +59,20 @@ from responsibly.fairness.interventions.threshold import find_thresholds
 ### Experiments : baseline models  
 
 Model 1: Exploititaiton only model (Collect all data above threshold)  
-- See file [Exploitation_Only_Baseline.ipynb](Exploitation_Only_Baseline.ipynb) 
+- See file [Exploitation_Only_Baseline.ipynb](src/Exploitation_Only_Baseline.ipynb) 
 
 Model 2: Pure exploration (Collect all data without considering risk)  
-- See file [Pure_Exploration_Baseline.ipynb](Pure_Exploration_Baseline.ipynb)
+- See file [Pure_Exploration_Baseline.ipynb](src/Pure_Exploration_Baseline.ipynb)
 
 ### Experiments: symmetric and asymmetric distributions
 
-Synthetic symmetric Data: see file [Gaussian_Experiment.ipynb](Gaussian_Experiment.ipynb)  
-Synthetic asymmetric Data: see file [Beta_Experiment.ipynb](Beta_Experiment.ipynb)  
+Synthetic symmetric Data: see file [Gaussian_Experiment.ipynb](src/Gaussian_Experiment.ipynb)  
+Synthetic asymmetric Data: see file [Beta_Experiment.ipynb](src/Beta_Experiment.ipynb)  
 
 ### Experiments:
 
-Real Dataset (**Adult, FICO, Fair**): see file [Adult_FICO_Gaussian_Fair.ipynb](Adult_FICO_Gaussian_Fair.ipynb)  
-Retiring Adult Dataset: see file [Retiring Adult.ipynb](Retiring_adult_adaptive_debiasing.ipynb)  
-Two Stage MDP Experiments: see file [MDP.ipynb](MDP.ipynb)  
+Real Dataset (**Adult, FICO, Fair**): see file [Adult_FICO_Gaussian_Fair.ipynb](src/Adult_FICO_Gaussian_Fair.ipynb)  
+Retiring Adult Dataset: see file [Retiring Adult.ipynb](src/Retiring_adult_adaptive_debiasing.ipynb)  
+Two Stage MDP Experiments: see file [MDP.ipynb](src/MDP.ipynb)  
 
 
