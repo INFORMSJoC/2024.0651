@@ -2,8 +2,6 @@
 
 # Adaptive Bounded Exploration and Intermediate Actions for Data Debiasing
 
-This archive is distributed in association with the [INFORMS Journal on Computing](https://pubsonline.informs.org/journal/ijoc) under the [Creative Commons Attribution-NonCommercial-NoDerivs](LICENSE).
-
 The data in this repository is a snapshot of the data that was used in the research reported on in the paper
 [Adaptive Bounded Exploration and Intermediate Actions for Data Debiasing](https://doi.org/10.1287/ijoc.2024.0651) by Yifan Yang, Yang Liu, and Parinaz Naghizadeh.
 
