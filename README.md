@@ -1,6 +1,6 @@
 [![INFORMS Journal on Computing Logo](https://INFORMSJoC.github.io/logos/INFORMS_Journal_on_Computing_Header.jpg)](https://pubsonline.informs.org/journal/ijoc)
 
-# "Adaptive Bounded Exploration and Intermediate Actions for Data Debiasing"(https://doi.org/10.1287/ijoc.2024.0651) 
+# Adaptive Bounded Exploration and Intermediate Actions for Data Debiasing
 
 This archive is distributed in association with the [INFORMS Journal on Computing](https://pubsonline.informs.org/journal/ijoc) under the [Creative Commons Attribution-NonCommercial-NoDerivs](LICENSE).
 
@@ -8,6 +8,7 @@ The data in this repository is a snapshot of the data that was used in the resea
 [Adaptive Bounded Exploration and Intermediate Actions for Data Debiasing](https://doi.org/10.1287/ijoc.2024.0651) by Yifan Yang, Yang Liu, and Parinaz Naghizadeh.
 
 ## Cite 
+
 To cite the contents of this repository, please cite both the paper and this repo, using their respective DOIs.
 
 https://doi.org/10.1287/ijoc.2024.0651
@@ -27,8 +28,10 @@ Below is the BibTex for citing this snapshot of the repository.
   note =          {Available for download at https://github.com/INFORMSJoC/2024.0651},
 }  
 ```
+
 ### Required packages/modules
 
+```
 from sklearn.model_selection import train_test_split  
 from sklearn.linear_model import LogisticRegression  
 from sklearn.utils import shuffle  
@@ -45,7 +48,7 @@ import matplotlib.pyplot as plt
 
 from responsibly.dataset import build_FICO_dataset  
 from responsibly.fairness.interventions.threshold import find_thresholds  
- 
+``` 
 
 ### Assumptions  
 
@@ -74,5 +77,3 @@ Synthetic asymmetric Data: see file [Beta_Experiment.ipynb](src/Beta_Experiment.
 Real Dataset (**Adult, FICO, Fair**): see file [Adult_FICO_Gaussian_Fair.ipynb](src/Adult_FICO_Gaussian_Fair.ipynb)  
 Retiring Adult Dataset: see file [Retiring Adult.ipynb](src/Retiring_adult_adaptive_debiasing.ipynb)  
 Two Stage MDP Experiments: see file [MDP.ipynb](src/MDP.ipynb)  
-
-
